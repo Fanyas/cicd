@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assumptions.*;
 public class TestClass {
     @org.junit.jupiter.api.Test
     void trueAssumption() {
-        assumeTrue(plus(2, 2) == 5);
+        assumeTrue(plus(2, 2) == 4);
         assertEquals(plus(2,2),4);
     }
 
